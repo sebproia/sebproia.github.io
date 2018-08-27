@@ -66,7 +66,7 @@ div.dark-overlay {
 
 /* fenetre modale */
 #videoModal .modal-body {
-  width: 800px;
+  width: 160%;
   border-radius: 5px;
 }
 
@@ -84,7 +84,7 @@ div.card {
 
 #partenaires-section {
   position: relative;
-  min-height: 300px;
+  min-height: 330px;
   background: url("../img/hot-air-ballons-1373167_1920.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
