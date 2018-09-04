@@ -107,6 +107,8 @@ div.card {
 .partenaires-logo1 {
   transition: 1s;
   transform: scale(0.9);
+  max-width: 100%;
+  height: 100%;
 }
 
 .partenaires-logo1:hover {
