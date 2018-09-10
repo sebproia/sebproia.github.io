@@ -1,3 +1,13 @@
+/**
+ * @Author: Robin DEHU <robin>
+ * @Date:   10th of September, 2018, 15:52:37, UT+02:00
+ * @Email:  rdehu@alacrite.fr
+ * @Project: Adequate, API
+ * @Filename: style.css
+ * @Last modified by:   robin
+ * @Last modified time: 10th of September, 2018, 16:50:15, UT+02:00
+ */
+
 body {
   background: rgb(255, 255, 255);
   color: #fff;
@@ -32,6 +42,7 @@ div.dark-overlay {
   max-height: 500px;
   background: rgba(0, 0, 0, 0.6);
 }
+
 #logo {
   margin: 0 auto;
   padding: 130px 0 0 0;
@@ -65,9 +76,11 @@ div.dark-overlay {
 }
 
 /* fenetre modale */
+
 #videoModal .modal-body {
   width: 160%;
   border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 /*Notre Solution Section */
@@ -117,6 +130,7 @@ div.card {
 }
 
 /*faq Section*/
+
 #faq-section {
   position: relative;
   text-align: center;
@@ -141,4 +155,33 @@ div.card {
 
 #footerBtn:hover {
   background: #ac6100;
+}
+
+.mymodalblock {
+  width: 30%;
+  height: 100px;
+  background-color: #dbdbdb;
+  border-radius: 5px;
+}
+
+.mymodaltext {
+  padding-top: 8px;
+  padding-bottom: 10px;
+  font-family: Arial;
+  text-align: center;
+  color: #000000;
+}
+
+.mymodallogo {
+  width: 20%;
+  height: 100%;
+}
+
+.mymodalbutton {
+  width: 100%;
+  height: 69px;
+  font-weight: bold;
+  border-radius: 2px;
+  background-color: #58b5ab;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
