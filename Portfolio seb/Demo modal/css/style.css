@@ -1,0 +1,191 @@
+/**
+ * @Author: Robin DEHU <robin>
+ * @Date:   10th of September, 2018, 15:52:37, UT+02:00
+ * @Email:  rdehu@alacrite.fr
+ * @Project: Adequate, API
+ * @Filename: style.css
+ * @Last modified by:   robin
+ * @Last modified time: 10th of September, 2018, 16:50:15, UT+02:00
+ */
+
+body {
+  background: rgb(255, 255, 255);
+  color: #fff;
+}
+
+/*Navbar Section */
+
+.navbar {
+  border-bottom: #d87543 3px solid;
+  opacity: 0.8;
+}
+
+/*Home-Head Section */
+
+#home-head-section {
+  background: url(../img/children-of-uganda-2245270_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 500px;
+}
+
+div.dark-overlay {
+  text-align: center;
+}
+
+#home-head-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-height: 500px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#logo {
+  margin: 0 auto;
+  padding: 130px 0 0 0;
+  width: 250px;
+}
+
+/* section modale */
+
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background: url("../img/africa-1854308_1920.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -300px;
+  text-align: center;
+  color: #fff;
+}
+
+#video-play a {
+  color: #fff;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* fenetre modale */
+
+#videoModal .modal-body {
+  width: 160%;
+  border-radius: 5px;
+<<<<<<< HEAD:Portfolio seb/Demo modal/css/style.css
+  background-color: rgba(0, 0, 0, 1);
+=======
+  background-color: rgba(0, 0, 0, 0.4);
+>>>>>>> fce84586bcfec18da7d009b797f63ca4c4f43df3:css/style.css
+}
+
+/*Notre Solution Section */
+
+#explore-section {
+  padding-top: 100px;
+}
+
+div.card {
+  border: none;
+}
+
+/*Partenaires Section*/
+
+#partenaires-section {
+  position: relative;
+  min-height: 330px;
+  background: url("../img/hot-air-ballons-1373167_1920.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.dark-overlay-partenaires {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+#partenaires-section .img-fluid {
+  max-width: 200px;
+}
+
+.partenaires-logo1 {
+  transition: 1s;
+  transform: scale(0.9);
+  max-width: 100%;
+  height: 100%;
+}
+
+.partenaires-logo1:hover {
+  transition: 1s;
+  transform: scale(1);
+}
+
+/*faq Section*/
+
+#faq-section {
+  position: relative;
+  text-align: center;
+  background: #fff;
+}
+
+/*footer Section*/
+
+#main-footer {
+  background: rgb(255, 255, 255);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+#footerBtn {
+  background: #e38c19;
+  border: none;
+  transition: 1s;
+  transform: scale(0.98);
+}
+
+#footerBtn:hover {
+  background: #ac6100;
+}
+
+.mymodalblock {
+  width: 30%;
+  height: 100px;
+  background-color: #dbdbdb;
+  border-radius: 5px;
+}
+
+.mymodaltext {
+  padding-top: 8px;
+  padding-bottom: 10px;
+  font-family: Arial;
+  text-align: center;
+  color: #000000;
+}
+
+.mymodallogo {
+  width: 20%;
+  height: 100%;
+}
+
+.mymodalbutton {
+  width: 100%;
+  height: 69px;
+  font-weight: bold;
+  border-radius: 2px;
+  background-color: #58b5ab;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
